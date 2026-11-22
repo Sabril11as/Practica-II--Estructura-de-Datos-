@@ -5,9 +5,9 @@ public class NodoArbolBMas {
     // Atributos
     private boolean esHoja;
     private List<Integer> claves;
-    private List<NodoArbolBMas> hijos;  // Vacía si es una hoja
-    private List<String> datos;         // null si es un nodo interno
-    private NodoArbolBMas siguiente;    // null si es un nodo interno (o la última hoja)
+    private List<NodoArbolBMas> hijos;  
+    private List<String> datos;         
+    private NodoArbolBMas siguiente;    
 
     // Métodos
     public NodoArbolBMas(boolean esHoja) {
